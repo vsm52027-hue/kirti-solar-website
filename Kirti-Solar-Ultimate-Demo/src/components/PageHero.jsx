@@ -1,0 +1,1 @@
+export default function PageHero({title,subtitle,image='page-solar.svg'}){return <section className="page-hero" style={{backgroundImage:`linear-gradient(90deg,rgba(3,38,34,.94),rgba(3,38,34,.58),rgba(3,38,34,.16)),url('/images/${image}')`}}><div className="container"><span className="eyebrow light">KIRTI SOLAR • MURUM</span><h1>{title}</h1><p>{subtitle}</p></div></section>}

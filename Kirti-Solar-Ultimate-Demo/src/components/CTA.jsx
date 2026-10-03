@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';import {ArrowRight} from 'lucide-react';export default function CTA({t}){return <section className="container cta"><div><span className="eyebrow">KIRTI SOLAR</span><h2>{t.home.cta}</h2><p>{t.home.ctaDesc}</p></div><Link className="btn gold" to="/contact">{t.common.quote}<ArrowRight size={18}/></Link></section>}

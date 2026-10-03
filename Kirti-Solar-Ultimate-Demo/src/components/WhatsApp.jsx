@@ -1,0 +1,1 @@
+import {MessageCircle} from 'lucide-react';export default function WhatsApp({t}){const msg=encodeURIComponent('Hello Kirti Solar Shop, I am interested in a solar solution. Please share details.');return <a className="whatsapp" href={`https://wa.me/917066404504?text=${msg}`} target="_blank" rel="noreferrer"><MessageCircle/><span>{t.common.whatsapp}</span></a>}
